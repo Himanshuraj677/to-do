@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>To do list</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h2>To Do Application</h2>
+    <div class="create-task">
+      <input class="btn-style" type="text" placeholder="ToDo Title">
+      <input class="btn-style" type="text" placeholder="Description">
+      <button class="submit primary text-light btn-style">Create ToDo</button>
+    </div>
+    <div class="margin">
+      <button class="clear danger text-light btn-style">Clear todos</button>
+      <button class="allCompleted success text-light btn-style">Mark as Completed</button>
+    </div>
+    <div class="task">
+      <table class="myTable margin">
+        <thead>
+          <tr>
+            <th class="tick"></th>
+            <th class="name">Name</th>
+            <th class="description">Description</th>
+            <th class="status">Status</th>
+            <th class="action">Action</th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
